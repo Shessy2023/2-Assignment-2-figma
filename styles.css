@@ -1,0 +1,211 @@
+/* bg */
+
+position: absolute;
+width: 580px;
+height: 679px;
+left: 720px;
+top: 81px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 50px rgba(4, 8, 19, 0.1);
+border-radius: 6px;
+
+
+/* For Individuals */
+
+position: absolute;
+width: 268px;
+height: 50px;
+left: 140px;
+top: 335px;
+
+font-family: 'Brown';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 50px;
+/* identical to box height, or 125% */
+letter-spacing: -0.8px;
+
+/* CL/Black */
+color: #000B0A;
+
+/* Form/Filled/no-caption */
+
+position: absolute;
+width: 238px;
+height: 72px;
+left: 760px;
+top: 223px;
+
+
+
+/* Form/Filled/no-caption */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Bg */
+
+position: absolute;
+height: 48px;
+left: 0px;
+right: 0px;
+top: 24px;
+
+
+
+/* Bg */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* CL/Gray 3 */
+border: 1px solid #F0F0F0;
+border-radius: 2px;
+
+
+/* u:angle-down */
+
+position: absolute;
+width: 24px;
+height: 24px;
+right: 8px;
+top: calc(50% - 24px/2);
+
+
+
+/* Vector */
+
+position: absolute;
+left: 28.14%;
+right: 27.93%;
+top: 37%;
+bottom: 36.98%;
+
+/* CL/Gray 2 */
+background: #A6A6A6;
+
+
+/* Placeholder */
+
+position: absolute;
+visibility: hidden;
+height: 20px;
+left: 16px;
+right: 130px;
+top: 14px;
+
+font-family: 'Sofia Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+display: flex;
+align-items: center;
+letter-spacing: 0.2px;
+
+/* Text/Headings */
+color: #011C34;
+
+mix-blend-mode: normal;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* Placeholder */
+
+position: absolute;
+height: 20px;
+left: 16px;
+right: 52px;
+top: 14px;
+
+font-family: 'Sofia Pro';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+display: flex;
+align-items: center;
+letter-spacing: 0.2px;
+
+/* CL/Grey */
+color: #737373;
+
+mix-blend-mode: normal;
+
+
+/*   Label */
+
+position: absolute;
+height: 16px;
+left: 0px;
+right: 0px;
+top: 0px;
+
+
+
+/* Title */
+
+position: absolute;
+height: 14px;
+left: 0px;
+right: 79px;
+top: 0px;
+
+font-family: 'Sofia Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 14px;
+/* identical to box height */
+display: flex;
+align-items: center;
+letter-spacing: 0.1px;
+
+/* Text/Headings */
+color: #011C34;
+
+
+
+/* Caption */
+
+position: absolute;
+visibility: hidden;
+height: 16px;
+left: 0px;
+right: 0px;
+top: 80px;
+
+
+
+/* Description */
+
+position: absolute;
+height: 16px;
+left: 0px;
+right: 24px;
+top: 0px;
+
+font-family: 'Upgrade';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+/* AellaCG/T03 */
+color: #A6A6A6;
+

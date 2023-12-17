@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <title>Sign up | Individual</title>
+</head>
+<body>
+    <main id = "flex-box">
+<aside class = "flex-container1">
+    <img src="./Logo.png" alt="logo">
+        
+    <h1>For Individuals</h1>
+    <p>Start benefiting from the wellness experience. For companies looking on increasing productivity, and improving organization wellness.</p>
+</aside>
+<section class="flex-container2">
+ 
+        <form action="action="submit.php" method="get"">
+        
+        <div>
+            <div class="fname">
+                <label for="name">First Name</label><br>
+                <input
+                  class="name"
+                  type="text"
+                  id="name"
+                  placeholder="Enter first name e.g.Tolu"
+                />
+            </div>
+       
+            <div class="lname">
+                <label for="name">Last Name</label><br>
+                <input
+                    class="name"
+                    type="text"
+                    id="name"
+                    placeholder="Enter Last name"
+                />
+            </div>
+        </div>
+        <br>
+        <div>
+            <div class ="gender">
+                <label for="gender">Gender</label><br>
+                <select type="gender" id="gender"">
+                    <option>select here</option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                </select>
+            </div>
+            
+            <div class = "dob">
+                <label for="date_of_birth">Date of Birth</label><br>
+                <input 
+                    class="date_of_birth"
+                    id="date_of_birth"
+                    type="text"
+                    placeholder="Enter date"
+                    onfocus="(this.type='date')"
+                    onblur="(this.type='text')"
+                />
+                
+            </div>
+        </div>
+    <br>
+        <div>
+            <div class="wt">
+                <label for="weight">Weight (KG)</label><br>
+                <input
+                    class="weight"
+                    type="number"
+                    id="weight"
+                    placeholder="Enter weight"
+                />
+            </div>
+                  
+            <div class="ht">
+                <label for="height">Height (cm)</label><br>
+                <input
+                    class="height"
+                    type="number"
+                    id="height"
+                    placeholder="Enter height"
+                />
+            </div>
+        </div>
+    </br>
+                     
+        <div class="activity">
+            <label for="activity">Activity Level</label><br>        
+            <select type="activity" id="activity" placeholder="select here">
+                <option>select here</option>
+                <option value="Passive">Passive</option>
+                <option value="Lightly_Active">Lightly Active</option>
+                <option value="Moderately_Active">Moderately Active</option>
+                <option value="very_Active">Very Active</option>
+            </select>
+        </div>
+        
+        <div class="pwd">
+            <label for="pwd">Password</label></br>
+            <input 
+                        type="password" 
+                        id="pwd" 
+                        class="pwd"
+                        name="pwd" 
+                        minlength="8" 
+                        placeholder="Enter your password"
+                    />
+                    
+        </div><br>
+        
+          
+        <button class="Register" type="button" value="Register" method="Post">
+            Register
+        </button>
+        <span class="terms">
+            <h6>By clicking Register, you agree to our <a href="https://altschoolafrica.com/terms">Terms of Use</a> 
+                and our <a href="https://altschoolafrica.com/policy">Privacy Policy</a></h6>
+        </span>
+        </form>
+
+    
+</section>
+    </main>
+    <footer>
+        
+    </footer>
+</body>
+</html>
+
